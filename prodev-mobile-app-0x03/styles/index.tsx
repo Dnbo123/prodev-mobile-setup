@@ -15,16 +15,18 @@ const styles = StyleSheet.create({
     },
     largeText: {
         fontSize: 40,
-        fontWeight: 700
+        fontWeight: 700,
+        marginTop: -1
     },
     smallText: {
-        fontSize: 12,
-        color: '#7E7B7B'
+        fontSize: 16,
+        color: '#7E7B7B',
+        marginBottom: -12
     },
     placeholderText: {
         fontSize: 18,
         color: '#7E7B7B',
-        marginBottom: 7
+        marginBottom: 4
     },
     inputField: {
         borderWidth: 1,
@@ -53,9 +55,9 @@ const styles = StyleSheet.create({
     },
     button: {
         backgroundColor: '#2B876E',
-        height: 53,
+        height: 43,
         borderRadius: 10,
-        marginTop: 25,
+        marginTop: 20,
         justifyContent: 'center',
         alignItems: 'center'
     },
@@ -65,7 +67,7 @@ const styles = StyleSheet.create({
     },
     socialMediaButton: {
         borderWidth: 1,
-        height: 50,
+        height: 40,
         justifyContent: 'center',
         alignItems: 'center',
         borderRadius: 10
@@ -92,7 +94,8 @@ const styles = StyleSheet.create({
     },
     dividerText: {
         fontSize: 17,
-        color: '#C2C2C2'
+        color: '#C2C2C2',
+        margin: -2
     },
     subTextGroup: {
         flexDirection: 'row',
@@ -103,12 +106,12 @@ const styles = StyleSheet.create({
     },
     subText: {
         fontSize: 18,
-        color: '#b5b5b5'
+        color: '#b5b5b5',
     },
     subTextJoin: {
         fontSize: 18,
         color: '#FFA800',
-        fontWeight: 600
+        fontWeight: 600,
     }
 });
 
